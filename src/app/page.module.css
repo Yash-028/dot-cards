@@ -1,3 +1,213 @@
+.footer {
+  color: var(--footer-text, #d9dbe1);
+  font-feature-settings: "liga" off;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  opacity: 0.699999988079071;
+}
+
+.h2 {
+  color: var(--orange, #ec5e2a);
+  font-family: DM Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1px;
+  @media (min-width: 768px) and (max-width: 1040px) {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  @media (max-width: 580px) {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 64px;
+    line-height: 72px;
+  }
+  @media (min-width: 1440px) {
+    font-size: 72px;
+    line-height: 80px;
+  }
+}
+
+.h3 {
+  color: var(--black, #201b21);
+  font-family: DM Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 73px; /* 114.063% */
+  letter-spacing: -1px;
+  @media (min-width: 768px) and (max-width: 1040px) {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  @media (max-width: 580px) {
+    font-size: 48px;
+    line-height: 56px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 72px;
+    line-height: 80px;
+  }
+  @media (min-width: 1440px) {
+    font-size: 80px;
+    line-height: 88px;
+  }
+}
+
+.h4 {
+  color: var(--dark-grey, #67696e);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  @media (min-width: 768px) and (max-width: 1040px) {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  @media (max-width: 580px) {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  @media (min-width: 1440px) {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.h5 {
+  color: var(--black, #201b21);
+  font-family: DM Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+  letter-spacing: -1px;
+}
+
+.h6 {
+  color: var(--black, #201b21);
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.5px;
+  text-decoration: none;
+}
+
+.h7 {
+  color: var(--dark-grey, #67696e);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 125% */
+}
+
+.h8 {
+  color: var(--black, #201b21);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.5px;
+}
+
+.h9 {
+  color: var(--black, #201b21);
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.5px;
+}
+
+.middlesvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 33px;
+  gap: 8px;
+  justify-content: flex-start;
+}
+
+.quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 6px 10px;
+  border: 1px solid var(--grey, #e5e5e5);
+  border-radius: 6px;
+}
+
+.lrsvg {
+  cursor: pointer;
+  padding: 4px;
+}
+
+.cart {
+  /* max-width: 100%;
+  height: auto;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  /* width: 100%; */
+}
+
+.pricecart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  position: sticky;
+  padding: 36px;
+  margin: 5% 0;
+  border-radius: 20px;
+  background: var(--white, #fff);
+  box-shadow: 0px 4.444444179534912px 66.66666412353516px 0px
+    rgba(0, 0, 0, 0.08);
+  @media (max-width: 768px) {
+    width: 90%;
+    margin: 60px 0;
+  }
+}
+
+.shoescroll {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 6px 10px;
+  /* border: 1px solid var(--grey, #e5e5e5); */
+  border-radius: 6px;
+  width: 20%;
+  /* width: 100%; */
+}
+
+/* pre defined css */
 .main {
   display: flex;
   flex-direction: column;
@@ -97,7 +307,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
