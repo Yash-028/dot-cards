@@ -6,7 +6,9 @@ This is the Dot Cards Assessment implemented in NextJs, React, and TypeScript.
   1. Clone the repository
   2. Install node modules using ( npm install or npm i )
   3. then run using the command ( npm run dev )
-  4. If you have any query please comment on the project commit
+  4. If you have any queries please comment on the project commit
+ 
+** I implemented most of all the UI components but if there is any problem running in any devices Please feel free to correct me. **
   
 
 
